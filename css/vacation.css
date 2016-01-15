@@ -1,4 +1,12 @@
+html {
+  background-color: #AEA8D3;
+}
 
+.container {
+  background-color: #E4F1FE;
+  padding-bottom: 15px;
+  border-radius: 0 0 10px 10px;
+}
 
 /* ----- styles for hidden vacation results below ----- */
 .hidden1, .hidden2, .hidden3 {
