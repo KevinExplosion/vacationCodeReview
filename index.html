@@ -8,9 +8,9 @@
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <link href="css/vacation.css" rel="stylesheet" type="text/css" media="all">
 
-        <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery-1.12.0.js"></script>
-        <script src="js/npm.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="js/npm.js"></script> -->
         <script src="js/script.js"></script>
   </head>
 
@@ -20,78 +20,71 @@
         <p>
           Answer the questions below, truthfully and honestly, and we'll determine the ideal spot for your dream vacation!
         </p>
-      <form>
 
-        <div class="form-group">
-          <label for="question1">Question1</label>
-            <br>
-              <input type="checkbox" value="1">
-                1 blah blah!
-              <input type="checkbox" value="2">
-                2 blah blah!
-        </div>
+        <form id="vacaction">
+          <div class="form-group">
+            <label for="answer">What do you like to do 1?</label>
+                <input id="answer" type="number" class="form-control"
+                min="1" max="5">
+          </div>
 
-        <div class="form-group">
-          <label for="question2">Question2</label>
-            <br>
-              <input type="checkbox" value="1">
-                1 blah blah!
-              <input type="checkbox" value="2">
-                2 blah blah!
-        </div>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="answer">What do you like to do 2?</label>
+                  <input id="answer" type="number" class="form-control"
+                  min="1" max="5">
+            </div>
 
-        <div class="form-group">
-          <label for="question3">Question3</label>
-            <br>
-              <input type="checkbox" value="1">
-                1 blah blah!
-              <input type="checkbox" value="2">
-                2 blah blah!
-        </div>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="answer">What do you like to do 3?</label>
+                  <input id="answer" type="number" class="form-control"
+                  min="1" max="5">
+            </div>
 
-        <div class="form-group">
-          <label for="question4">Question4</label>
-            <br>
-              <input type="checkbox" value="1">
-                1 blah blah!
-              <input type="checkbox" value="2">
-                2 blah blah!
-        </div>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="answer">What do you like to do 4?</label>
+                  <input id="answer" type="number" class="form-control"
+                  min="1" max="5">
+            </div>
 
-        <div class="form-group">
-          <label for="question5">Question5</label>
-            <br>
-              <input type="checkbox" value="1">
-                1 blah blah!
-              <input type="checkbox" value="2">
-                2 blah blah!
-        </div>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="answer">What do you like to do 5?</label>
+                  <input id="answer" type="number" class="form-control"
+                  min="1" max="5">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
-      </form>
-
-      <button input="submit" class="btn btn-primary" value="submit">
+      <button input="submit" class="btn btn-info" value="submit">
         Let's go on Vacation!
       </button>
 
-      <div class="hidden1">
-        <p>
-          Hidden destination 1
-          <img src="http://lorempixel.com/400/200/">
-        </p>
-      </div>
+      <!-- <div id="result"> -->
+        <div class="hidden1">
+          <p>
+            Hidden destination 1
+            <img src="http://lorempixel.com/400/200/">
+          </p>
+        </div>
 
-      <div class="hidden2">
-        <p>
-          Hidden destination 2
-          <img src="http://lorempixel.com/400/200/">
-        </p>
-      </div>
+        <div class="hidden2">
+          <p>
+            Hidden destination 2
+            <img src="http://lorempixel.com/400/200/">
+          </p>
+        </div>
 
-      <div class="hidden3">
-        <p>
-          Hidden destination 3
-          <img src="http://lorempixel.com/400/200/">
-        </p>
+        <div class="hidden3">
+          <p>
+            Hidden destination 3
+            <img src="http://lorempixel.com/400/200/">
+          </p>
+        </div>
       </div>
 
   </body>

@@ -8,6 +8,15 @@ html {
   border-radius: 0 0 10px 10px;
 }
 
+/* ----- form styles ----- */
+.form label {
+  font-size: 20px;
+}
+
+.form-group {
+  padding-right: 70%;
+}
+
 /* ----- styles for hidden vacation results below ----- */
 .hidden1, .hidden2, .hidden3 {
   display: none;
