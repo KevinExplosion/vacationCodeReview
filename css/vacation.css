@@ -1,12 +1,14 @@
-html {
-  background-color: #AEA8D3;
+html, body{
+  background-color: gray;
   font-family: cursive, monospace, serif, sans-serif;
 }
 
 .container {
-  background-color: #E4F1FE;
+  background-color: #FDE3A7;
+  margin-top: 20px;
   padding-bottom: 15px;
   border-radius: 0 0 10px 10px;
+  border-top: 1px solid black;
 }
 
 h1 {
@@ -14,6 +16,15 @@ h1 {
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 60px;
+  background-color: #FDE3A7;
+  border-top: 1px solid black;
+  border-bottom: 1px  solid black;
+}
+
+.row {
+  background-color: #E9D460;
+  border-radius: 5px;
+  margin: 20px;
 }
 
 p {
@@ -22,7 +33,18 @@ p {
 
 #result img {
   height: 350px;
-  width: 500px;
+  width: 900px;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#result {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* ----- form styles ----- */

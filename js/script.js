@@ -9,11 +9,11 @@ $(document).ready(function() {
 
     var desire = (ans1 + ans2 + ans3 + ans4 + ans5);
     if (desire <= 6) {
-      $(".moon").show();
+      $(".heck").show();
     } else if (desire <= 19) {
       $(".dubai").show();
     } else {
-      $(".heck").show();
+      $(".moon").show();
     };
 
 event.preventDefault();
