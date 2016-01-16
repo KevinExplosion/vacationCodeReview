@@ -1,4 +1,5 @@
 html, body{
+  background-image: url("../images/background.jpg");
   background-color: gray;
   font-family: cursive, monospace, serif, sans-serif;
 }
@@ -12,6 +13,7 @@ html, body{
 }
 
 h1 {
+  background-img: url("../images/background.jpg");
   text-align: center;
   font-weight: bold;
   letter-spacing: 2px;
@@ -41,6 +43,8 @@ p {
 
 #result {
   text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 a:hover {
